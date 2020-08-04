@@ -1,10 +1,10 @@
 <template>
     <div>
-        <top-area></top-area>
+        <top-area @event-data="checksubmenuActive"></top-area>
         <div>
             <router-view/>
         </div>
-        <footer-area></footer-area>
+        <footer-area @event-data="checksubmenuActive"></footer-area>
     </div>
 </template>
 
@@ -17,6 +17,17 @@
         components: {
             TopArea,
             FooterArea
+        },
+        data(){
+            return{
+                submenuActive:'false'
+            }
+        },
+        methods:{
+            checksubmenuActive(data){
+                this.submenuActive = data;
+                console.log(this.submenuActive);
+            }
         }
     }
 </script>

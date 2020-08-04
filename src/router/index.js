@@ -11,6 +11,7 @@ export const constantRoutes = [
     {
         path: '/',
         component: Main,
+        redirect:'/view/index',
         hidden: true
     },
     {
@@ -24,8 +25,30 @@ export const constantRoutes = [
                 component: () => import('@/views/view/index')
             },
             {
+                path: '/view/about',
+                component: () => import('@/views/view/AboutMe')
+            },
+            {
+                path: '/view/news/ramen',
+                component: () => import('@/views/view/NewRamenList')
+            },
+            {
+                path: '/view/news/press',
+                component: () => import('@/views/view/RamenNews')
+            },
+            {
                 path: '/view/test',
                 component: () => import('@/views/view/Test')
+            },
+            {
+                path: '/view/list',
+                component: () => import('@/views/view/RamenList')
+            },
+            //아이디를 파라미터로 넘기는 처리의 router 선언
+            {
+                path: '/view/details/:id',
+                component: () => import('@/views/view/RamenDetails'),
+                props: true
             }
         ]
     }

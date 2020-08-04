@@ -1,0 +1,59 @@
+{
+  "message": "안녕 i18n !!",
+  "brand" : "브랜드 별",
+  "type" : "면 타입별",
+  "bowl" : "용기 타입별",
+  "nosel" : "단종된 라면",
+  "ns" : {
+    "image_url" : "/images/brand/ns_subvisual.png",
+    "menu_title": "농심"
+  },
+  "ot" : {
+    "image_url" : "/images/brand/ot_subvisual.png",
+    "menu_title": "오뚜기"
+  },
+  "pd" : {
+    "image_url" : "",
+    "menu_title": "팔도"
+  },
+  "pm" : {
+    "image_url" : "",
+    "menu_title": "풀무원"
+  },
+  "sy" : {
+    "image_url" : "",
+    "menu_title": "삼양"
+  },
+  "pb" : {
+    "image_url" : "",
+    "menu_title": "편의점PB"
+  },
+  "oil" : {
+    "image_url" : "",
+    "menu_title": "유탕면"
+  },
+  "dry" : {
+    "image_url" : "",
+    "menu_title": "건면"
+  },
+  "live" : {
+    "image_url" : "",
+    "menu_title": "생면"
+  },
+  "etc" : {
+    "image_url" : "",
+    "menu_title": "기타"
+  },
+  "plastic" : {
+    "image_url" : "",
+    "menu_title": "봉지라면"
+  },
+  "cup" : {
+    "image_url" : "",
+    "menu_title": "용기면"
+  },
+  "notsel" : {
+    "image_url" : "",
+    "menu_title": "단종품"
+  }
+}

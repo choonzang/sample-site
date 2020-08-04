@@ -1,0 +1,31 @@
+{
+  "message": "Hello i18n !!",
+  "brand" : "Brand Type",
+  "type" : "Noodle Type",
+  "bowl" : "Bowl Type",
+  "nosel" : "No more Selling",
+  "ns" : {
+    "image_url" : "",
+    "menu_title": "Nongsim"
+  },
+  "ot" : {
+    "image_url" : "",
+    "menu_title": "Ottugi"
+  },
+  "pd" : {
+    "image_url" : "",
+    "menu_title": "Paldo"
+  },
+  "pm" : {
+    "image_url" : "",
+    "menu_title": "Pulmuwon"
+  },
+  "sy" : {
+    "image_url" : "",
+    "menu_title": "Samyang"
+  },
+  "pb" : {
+    "image_url" : "",
+    "menu_title": "Convinience Store PB"
+  }
+}
